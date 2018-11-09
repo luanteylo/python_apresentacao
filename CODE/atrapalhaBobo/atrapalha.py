@@ -1,5 +1,5 @@
 from easygui import msgbox
-# 	msgbox("test")
+
 
 import random, time
 
@@ -18,8 +18,8 @@ def decision(probability):
 	return random.random() < probability
 
 
-m_start = '09:00AM'
-m_end = '11:00AM'
+m_start = '11:00AM'
+m_end = '12:00AM'
 
 t_start='2:00PM'
 t_end='5:00PM'
