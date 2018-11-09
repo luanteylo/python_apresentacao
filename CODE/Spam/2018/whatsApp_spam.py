@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome("/home/luan/project/cederj_presentation/CODE/SpamEterno/2018/chromedriver")
+driver = webdriver.Chrome("/home/luan/project/cederj_presentation/CODE/Spam/2018/chromedriver")
 driver.get('http://web.whatsapp.com')
 
 name = input('Enter the name of user or group : ')
