@@ -36,7 +36,7 @@ conversation_element.click()
 
 # After selecting the conversation
 # Updated XPath to target the specific attributes of the message box
-msg_box_xpath = '//div[@contenteditable="true" and @role="textbox" and @title="Type a message"]'
+msg_box_xpath = '//div[@contenteditable="true" and @role="textbox" and @aria-label="Type a message"]'
 msg_box = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, msg_box_xpath)))
 
 for i in range(count):
